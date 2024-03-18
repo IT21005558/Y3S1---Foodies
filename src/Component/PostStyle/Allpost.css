@@ -1,0 +1,92 @@
+.post-list-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .post-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .post-size {
+    width: 100%;
+  }
+  
+  .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .photo {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  .comment-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .comment-label {
+    margin-left: 10px;
+  }
+
+  #addbtn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+   #addbtn:hover {
+    background-color: #0062cc;
+  }
+  
+   #addbtn:active {
+    background-color: #005cbf;
+  }
+  
+
+  .homeBtn {
+    color: #007bff; /* icon color */
+    font-size: 2rem; /* icon size */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem; /* optional margin */
+  }
+
+  .trashBtn {
+    color: #ff0000; /* icon color */
+    font-size: 1.5rem; /* icon size */
+  }
+
+  .lgOutBtn{
+    color: #020086; /* icon color */
+    font-size: 2rem; /* icon size */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem; /* optional margin */
+  }
+  
+
+
+
+
+

@@ -1,0 +1,57 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; 
+    max-width: 500px; 
+  
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  .delete-user-container {
+    background-image: url("DeleteUser.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+   
+    label {
+      font-size: larger;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
+    input {
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      font-size: 1rem;
+      animation-duration: 3ms;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: bolder;
+      text-align: center;
+    }
+  
+    input[type="text"] {
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      font-size:large;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+   
+    
